@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taranpreet Singh - Resume (Placeholder / Printable)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg-badge: #f1f5f9;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8fafc;
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+    }
+    .resume-toolbar {
+      max-width: 800px;
+      margin: 0 auto 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border: 1px solid var(--border);
+    }
+    .btn-action {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-action:hover {
+      background: #4338ca;
+    }
+    .resume-page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 40px 48px;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+    .header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .candidate-name {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .candidate-title {
+      font-size: 1.05rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-heading {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .objective-text {
+      font-size: 0.92rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .item {
+      margin-bottom: 12px;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #0f172a;
+    }
+    .item-sub {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.86rem;
+      color: var(--primary);
+      margin-top: 2px;
+    }
+    .item-description {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+    .skills-category {
+      margin-bottom: 8px;
+      font-size: 0.88rem;
+    }
+    .skills-category strong {
+      color: #0f172a;
+    }
+    .tag-list {
+      display: inline;
+      color: var(--text-muted);
+    }
+    .placeholder-badge {
+      background: #fef3c7;
+      color: #92400e;
+      font-size: 0.75rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .resume-toolbar {
+        display: none;
+      }
+      .resume-page {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Action Toolbar -->
+  <div class="resume-toolbar">
+    <div>
+      <strong>Resume Preview (Printable HTML Template)</strong>
+      <p style="font-size: 0.8rem; color: #64748b;">Save as PDF with <code>Ctrl + P</code> or replace with your own <code>resume.pdf</code>.</p>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <button class="btn-action" onclick="window.print()">Print / Save as PDF</button>
+      <a href="../index.html" class="btn-action" style="background: #64748b;">&larr; Back to Portfolio</a>
+    </div>
+  </div>
+
+  <!-- Resume Sheet -->
+  <div class="resume-page">
+    <div class="header">
+      <h1 class="candidate-name">Taranpreet Singh</h1>
+      <p class="candidate-title">BCA Student &bull; Aspiring IT Professional</p>
+      
+      <div class="contact-bar">
+        <span>Email: taranpreet.singh@example.com</span>
+        <span>&bull;</span>
+        <span>Location: India</span>
+        <span>&bull;</span>
+        <span>LinkedIn: linkedin.com/in/taranpreet-singh-placeholder</span>
+        <span>&bull;</span>
+        <span>GitHub: github.com/taranpreet-singh-placeholder</span>
+      </div>
+    </div>
+
+    <!-- Career Objective -->
+    <div class="section">
+      <h2 class="section-heading">Career Objective</h2>
+      <p class="objective-text">
+        Enthusiastic and motivated second-year Bachelor of Computer Applications (BCA) student with a solid understanding of computer fundamentals, operating systems, and basic web technologies. Seeking a beginner-friendly IT internship where I can apply practical problem-solving, learn industry practices under mentorship, and contribute diligently to team goals.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <h2 class="section-heading">Education</h2>
+      
+      <div class="item">
+        <div class="item-header">
+          <span>Bachelor of Computer Applications (BCA)</span>
+          <span>2024 &ndash; [Expected 2026/2027]</span>
+        </div>
+        <div class="item-sub">
+          <span>[Your College / University Name, City, India] <span class="placeholder-badge">Editable</span></span>
+          <span>Second Year (Sem 3/4)</span>
+        </div>
+        <p class="item-description">
+          Core subjects: Computer Fundamentals, Database Management Systems (DBMS), Web Technologies Basics, Data Structures, Operating Systems Concepts.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Senior Secondary (Class XII)</span>
+          <span>[Year Completed, e.g., 2023]</span>
+        </div>
+        <div class="item-sub">
+          <span>[Your School / Junior College Name, City] <span class="placeholder-badge">Editable</span></span>
+          <span>[Science / Commerce / Arts]</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical & Practical Skills -->
+    <div class="section">
+      <h2 class="section-heading">Skills</h2>
+      <div class="skills-category">
+        <strong>Computer Fundamentals:</strong>
+        <span class="tag-list"> Operating Systems Basics, Computer Architecture, Relational Databases (RDBMS/SQL Basics), Networking Fundamentals.</span>
+      </div>
+      <div class="skills-category">
+        <strong>Web Foundations:</strong>
+        <span class="tag-list"> HTML5, CSS3 (Flexbox/Grid), JavaScript (Basics &amp; DOM Manipulation), Responsive Web Design.</span>
+      </div>
+      <div class="skills-category">
+        <strong>Productivity &amp; Tools:</strong>
+        <span class="tag-list"> Microsoft Excel &amp; Google Sheets (Formulas, Data Organization), Microsoft Word &amp; Docs, VS Code, Git/GitHub Basics.</span>
+      </div>
+      <div class="skills-category">
+        <strong>Interpersonal Strengths:</strong>
+        <span class="tag-list"> Problem-Solving Mindset, Clear Communication, Active Listening, Team Collaboration, Eagerness to Learn.</span>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+      <h2 class="section-heading">Academic &amp; Practice Projects</h2>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Personal Developer Portfolio Website</span>
+          <span>Completed &bull; Live</span>
+        </div>
+        <p class="item-description">
+          Developed a modern, responsive single-page portfolio using HTML5, CSS3, and JavaScript. Implemented a recruiter-focused layout with smooth navigation, glassmorphic UI cards, contact validation, and mobile responsiveness.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Student Task Planner (Concept / In Development)</span>
+          <span>Project Idea</span>
+        </div>
+        <p class="item-description">
+          Designed a browser-based productivity tool for college students to track assignments, exam schedules, and daily milestones using JavaScript DOM manipulation and LocalStorage.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Student Data &amp; Marks Dashboard (Concept / Planned)</span>
+          <span>Project Idea</span>
+        </div>
+        <p class="item-description">
+          Conceptualized a reporting dashboard utilizing spreadsheet data management (Excel / Sheets) to visualize academic attendance and grades.
+        </p>
+      </div>
+    </div>
+
+    <!-- Declaration -->
+    <div class="section">
+      <h2 class="section-heading">Declaration</h2>
+      <p class="item-description">
+        I hereby affirm that the information presented above is truthful and accurately represents my current academic status and developing technical abilities.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
+

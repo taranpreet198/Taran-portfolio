@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Taranpreet Singh | BCA Student & Aspiring IT Professional</title>
+  <meta name="title" content="Taranpreet Singh | BCA Student & Aspiring IT Professional">
+  <meta name="description" content="Portfolio of Taranpreet Singh, a 2nd-year BCA student seeking beginner-friendly IT internships. Explore my technical skills, academic projects, and contact info.">
+  <meta name="keywords" content="Taranpreet Singh, BCA Student, IT Intern, Web Development, Computer Applications, India, Resume, Portfolio">
+  <meta name="author" content="Taranpreet Singh">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourportfolio.com/">
+  <meta property="og:title" content="Taranpreet Singh | BCA Student & Aspiring IT Professional">
+  <meta property="og:description" content="2nd-year BCA student eager to learn, contribute, and solve real-world problems. Seeking beginner-friendly IT internships.">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Blobs -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+  <div class="glow-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Taranpreet Singh Home">
+        <span class="brand-badge">&lt;TS /&gt;</span>
+        <span class="brand-name">Taranpreet<span class="brand-dot">.dev</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-wrapper">
+          <a href="#contact" class="btn btn-sm btn-primary">Hire Me</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span class="status-text">Open to Beginner-Friendly IT Internships</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Taranpreet Singh</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            BCA Student | Aspiring IT Professional | Eager to Learn and Build
+          </h2>
+
+          <p class="hero-description">
+            I am a second-year Bachelor of Computer Applications (BCA) student with a strong curiosity for computing and practical problem-solving. Currently deepening my foundation in computer science, software fundamentals, and web technologies. Ready to bring enthusiasm, quick learning, and teamwork to an entry-level IT internship or trainee role.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              View My Projects
+            </a>
+
+            <a href="#resume" class="btn btn-secondary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+
+            <a href="#contact" class="btn btn-ghost">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number">2nd</span>
+              <span class="metric-label">Year BCA Student</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">100%</span>
+              <span class="metric-label">Dedication to Learn</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">India</span>
+              <span class="metric-label">Location / Remote Ready</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Tech Terminal Card -->
+        <div class="hero-visual">
+          <div class="code-terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">taranpreet@student: ~/profile.json</div>
+            </div>
+            <div class="terminal-body">
+              <pre><code><span class="code-comment">// Candidate Profile Overview</span>
+{
+  <span class="code-key">"name"</span>: <span class="code-string">"Taranpreet Singh"</span>,
+  <span class="code-key">"currentStatus"</span>: <span class="code-string">"2nd Year BCA Student"</span>,
+  <span class="code-key">"degree"</span>: <span class="code-string">"Bachelor of Computer Applications"</span>,
+  <span class="code-key">"interests"</span>: [
+    <span class="code-string">"Web Development"</span>,
+    <span class="code-string">"Computer Fundamentals"</span>,
+    <span class="code-string">"Software Support & IT Ops"</span>
+  ],
+  <span class="code-key">"seeking"</span>: <span class="code-string">"Beginner IT Internships"</span>,
+  <span class="code-key">"attitude"</span>: <span class="code-string">"Curious, Coachable, Team Player"</span>,
+  <span class="code-key">"availableFor"</span>: <span class="code-string">"Internship / Trainee Roles"</span>
+}</code></pre>
+            </div>
+            <div class="terminal-footer">
+              <span class="terminal-tag">Ready to contribute</span>
+              <span class="terminal-branch">main &bull; active</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Get To Know Me</p>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">A glimpse into who I am, what drives me, and how I approach learning technology.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-card glass-card">
+            <div class="card-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Who I Am</h3>
+            <p class="card-text">
+              I am Taranpreet Singh, a passionate second-year Bachelor of Computer Applications (BCA) student based in India. My passion lies in understanding how software systems work from the ground up—from foundational computer architecture to modern web interfaces.
+            </p>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="card-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="card-title">Continuous Learning</h3>
+            <p class="card-text">
+              I am actively expanding my computer science and IT knowledge. Rather than chasing buzzwords, I focus on building rock-solid basics: understanding data structures, database relationships, semantic HTML, modern styling, and script logic.
+            </p>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="card-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Collaboration & Adaptability</h3>
+            <p class="card-text">
+              Whether working on academic group presentations or collaborating on lab assignments, I value clear communication, listening to feedback, and helping teammates. I embrace constructive criticism as the fastest way to grow.
+            </p>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="card-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="card-title">Internship Objective</h3>
+            <p class="card-text">
+              My immediate goal is to secure a beginner-friendly IT internship where I can apply my classroom knowledge to real-world tasks, learn industry workflows, understand professional toolchains, and deliver reliable contributions.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Highlight Quote Banner -->
+        <div class="about-banner glass-card">
+          <div class="banner-content">
+            <h4 class="banner-heading">"Enthusiastic to learn, receptive to mentorship, and disciplined in execution."</h4>
+            <p class="banner-subtext">I believe a strong foundation and a great attitude are the most important assets of an aspiring engineer.</p>
+          </div>
+          <div class="banner-action">
+            <a href="#skills" class="btn btn-sm btn-secondary">Explore My Skills &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Academic Background</p>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Structured academic foundation preparing me for the software and IT industry.</p>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Timeline Item 1: BCA -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-badge-row">
+                <span class="badge badge-primary">Currently Pursuing</span>
+                <!-- EDITABLE PLACEHOLDER: Expected graduation year -->
+                <span class="timeline-year">2024 &ndash; [Expected: 2026/2027]</span>
+              </div>
+              
+              <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+              
+              <!-- EDITABLE PLACEHOLDER: College/University name & location -->
+              <p class="timeline-institution">
+                <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="placeholder-text">[Your College / University Name, City, India]</span>
+              </p>
+
+              <div class="timeline-details">
+                <p><strong>Current Standing:</strong> Second Year (3rd / 4th Semester)</p>
+                <p><strong>Key Areas of Study:</strong></p>
+                <div class="coursework-tags">
+                  <span class="course-tag">Computer Fundamentals</span>
+                  <span class="course-tag">C / C++ Programming Basics</span>
+                  <span class="course-tag">Data Structures Basics</span>
+                  <span class="course-tag">Database Management (DBMS)</span>
+                  <span class="course-tag">Web Design Foundations</span>
+                  <span class="course-tag">Operating Systems Basics</span>
+                </div>
+              </div>
+
+              <div class="placeholder-tip">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <span>Edit your college name and exact passing year in <code>index.html</code> (search for <code>[Your College</code>).</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: High School / Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-badge-row">
+                <span class="badge badge-secondary">Higher Secondary</span>
+                <!-- EDITABLE PLACEHOLDER: 12th year -->
+                <span class="timeline-year">[Year Completed, e.g., 2023]</span>
+              </div>
+              
+              <h3 class="timeline-degree">Senior Secondary Education (Class XII)</h3>
+              
+              <!-- EDITABLE PLACEHOLDER: School Name -->
+              <p class="timeline-institution">
+                <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="placeholder-text">[Your School / Junior College Name, City]</span>
+              </p>
+
+              <div class="timeline-details">
+                <p><strong>Stream:</strong> <span class="placeholder-text">[Science / Commerce with Computers / Arts]</span></p>
+                <p>Built early discipline in mathematics, analytical thinking, and basic computer fundamentals.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Technical & Practical Toolkit</p>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">
+            An honest, grounded overview of what I know and continue to practice. No inflated claims—just real fundamentals I can demonstrate.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Computer Fundamentals -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="cat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Computer Fundamentals</h3>
+                <span class="cat-level">Core Academic Knowledge</span>
+              </div>
+            </div>
+
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Operating Systems Basics</span>
+                <span class="pill-badge">Windows &amp; Linux basics</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Computer Organization</span>
+                <span class="pill-badge">CPU, Memory, Storage</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Data Structures Concepts</span>
+                <span class="pill-badge">Arrays, Lists, Stacks</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Database Fundamentals</span>
+                <span class="pill-badge">RDBMS &amp; SQL Basics</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Networking Fundamentals</span>
+                <span class="pill-badge">IP, DNS, HTTP/HTTPS</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Web Foundations -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="cat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Web Technologies</h3>
+                <span class="cat-level">Practical &amp; Developing</span>
+              </div>
+            </div>
+
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">HTML5</span>
+                <span class="pill-badge">Semantic markup</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">CSS3</span>
+                <span class="pill-badge">Flexbox, Grid, Responsive</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">JavaScript Basics</span>
+                <span class="pill-badge">Syntax, DOM, Events</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Responsive Design</span>
+                <span class="pill-badge">Mobile-first layouts</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Browser DevTools</span>
+                <span class="pill-badge">Inspecting &amp; Debugging</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Office & Productivity Tools -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="cat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Productivity &amp; Tools</h3>
+                <span class="cat-level">Daily Practical Use</span>
+              </div>
+            </div>
+
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">MS Excel &amp; Google Sheets</span>
+                <span class="pill-badge">Formulas, Tables, Filters</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">MS Word &amp; Docs</span>
+                <span class="pill-badge">Documentation &amp; Reports</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">MS PowerPoint &amp; Slides</span>
+                <span class="pill-badge">Academic Presentations</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">VS Code</span>
+                <span class="pill-badge">Primary Code Editor</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Git &amp; GitHub (Basics)</span>
+                <span class="pill-badge">Cloning, Commits, Push</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Soft Skills & Teamwork -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="cat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <polyline points="16 11 18 13 22 9"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Professional &amp; Soft Skills</h3>
+                <span class="cat-level">Workplace Strengths</span>
+              </div>
+            </div>
+
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Active Communication</span>
+                <span class="pill-badge">Clear &amp; respectful</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Teamwork &amp; Collaboration</span>
+                <span class="pill-badge">Academic group tasks</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Problem-Solving Mindset</span>
+                <span class="pill-badge">Step-by-step logic</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Curiosity &amp; Coachability</span>
+                <span class="pill-badge">Fast learner</span>
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Time Management</span>
+                <span class="pill-badge">Meeting deadlines</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Hands-on Work</p>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            A transparent look at my work. I have clearly labeled active projects vs. upcoming project concepts.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Personal Portfolio Website (Completed) -->
+          <article class="project-card glass-card">
+            <div class="project-card-header">
+              <div class="project-status-badge status-completed">
+                <span class="badge-dot"></span>
+                Completed &bull; Live
+              </div>
+              <span class="project-category">Web Development</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                A modern, responsive recruiter-focused portfolio website designed to showcase my academic profile, technical foundation, and aspiration for IT internships. Built with clean, accessible semantic HTML5, modern CSS3 styling with glassmorphism and custom CSS variables, and vanilla JavaScript for smooth user interactions.
+              </p>
+
+              <div class="project-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <!-- EDITABLE PLACEHOLDER: GitHub repo link -->
+              <a href="https://github.com/taranpreet-singh-placeholder/portfolio" target="_blank" rel="noopener noreferrer" class="project-link" title="View Source on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub Repo
+              </a>
+
+              <a href="#hero" class="project-link project-link-accent" title="Current Website">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Student Task Planner (Idea / In Progress) -->
+          <article class="project-card glass-card">
+            <div class="project-card-header">
+              <div class="project-status-badge status-in-progress">
+                <span class="badge-dot"></span>
+                Project Idea &bull; In Development
+              </div>
+              <span class="project-category">Productivity App</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Student Task Planner</h3>
+              <p class="project-description">
+                A lightweight task and deadline manager conceived to help college students track upcoming assignment dates, internal lab assessments, and exam study targets. Designed to utilize browser LocalStorage for persistence without requiring a backend server.
+              </p>
+
+              <div class="project-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript (DOM)</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <!-- EDITABLE PLACEHOLDER: GitHub repo link -->
+              <a href="#projects" class="project-link project-link-disabled" title="Repository will be linked upon initial commit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub [Coming Soon]
+              </a>
+
+              <span class="project-link-badge">Concept Stage</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Student Data Dashboard (Idea / Concept) -->
+          <article class="project-card glass-card">
+            <div class="project-card-header">
+              <div class="project-status-badge status-concept">
+                <span class="badge-dot"></span>
+                Project Idea &bull; Planned
+              </div>
+              <span class="project-category">Data &amp; Analytics</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Student Data Dashboard</h3>
+              <p class="project-description">
+                A planned data dashboard project aimed at analyzing class attendance, subject-wise marks, and semester performance trends. Incorporating spreadsheet data analysis fundamentals (MS Excel / Sheets) transitioning into an interactive web interface with chart visualizations.
+              </p>
+
+              <div class="project-tags">
+                <span class="tech-tag">MS Excel / Sheets</span>
+                <span class="tech-tag">Data Analysis</span>
+                <span class="tech-tag">JavaScript / Charts</span>
+                <span class="tech-tag">UI Design</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <!-- EDITABLE PLACEHOLDER: GitHub repo link -->
+              <a href="#projects" class="project-link project-link-disabled" title="Repository will be linked upon initial commit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub [Coming Soon]
+              </a>
+
+              <span class="project-link-badge">Planning Stage</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Resume Section -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Recruiter Ready</p>
+          <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+          <p class="section-subtitle">
+            Download or preview my curriculum vitae summarizing my education, core skills, and internship availability.
+          </p>
+        </div>
+
+        <div class="resume-wrapper glass-card">
+          <div class="resume-info">
+            <div class="resume-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            
+            <div class="resume-text-content">
+              <h3 class="resume-candidate-name">Taranpreet Singh</h3>
+              <p class="resume-candidate-title">BCA Student &bull; Aspiring IT Intern &bull; India</p>
+              
+              <ul class="resume-highlights">
+                <li><span class="check-icon">&#10003;</span> 2nd-Year Bachelor of Computer Applications</li>
+                <li><span class="check-icon">&#10003;</span> Core fundamentals: OS, DBMS, Web Basics (HTML/CSS/JS)</li>
+                <li><span class="check-icon">&#10003;</span> High aptitude for problem-solving, teamwork, and continuous learning</li>
+                <li><span class="check-icon">&#10003;</span> Seeking 2 to 6 months IT internship / trainee opportunities</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-action-box">
+            <!-- EDITABLE PLACEHOLDER: Replace 'assets/resume-sample.html' with 'assets/resume.pdf' when available -->
+            <a href="assets/resume-sample.html" target="_blank" class="btn btn-primary btn-lg" id="downloadResumeBtn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              View / Download Resume
+            </a>
+            
+            <p class="resume-note">
+              <span>* Includes a clean, printable HTML resume placeholder ready to be saved as PDF or replaced with your own <code>resume.pdf</code>.</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-tag">Let's Connect</p>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">
+            Have an entry-level internship opening, tech trainee position, or want to connect? I would love to hear from you!
+          </p>
+        </div>
+
+        <!-- Recruiter Message Banner -->
+        <div class="recruiter-banner glass-card">
+          <div class="banner-icon-pulse">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <p class="recruiter-statement">
+            <strong>Internship Availability:</strong> "I am open to beginner-friendly IT internships and opportunities to learn and contribute."
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column">
+            
+            <!-- Email Item -->
+            <div class="contact-card glass-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <h4 class="contact-method-title">Email Address</h4>
+                <!-- EDITABLE PLACEHOLDER: Your email -->
+                <p class="contact-method-value" id="userEmailText">taranpreet.singh@example.com</p>
+                <div class="contact-card-actions">
+                  <a href="mailto:taranpreet.singh@example.com" class="btn-text-link">Send Email &rarr;</a>
+                  <button class="btn-copy" id="copyEmailBtn" title="Copy email address to clipboard">
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- LinkedIn Item -->
+            <div class="contact-card glass-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <h4 class="contact-method-title">LinkedIn Profile</h4>
+                <!-- EDITABLE PLACEHOLDER: LinkedIn URL -->
+                <p class="contact-method-value">linkedin.com/in/taranpreet-singh-placeholder</p>
+                <a href="https://linkedin.com/in/taranpreet-singh-placeholder" target="_blank" rel="noopener noreferrer" class="btn-text-link">
+                  Connect on LinkedIn &rarr;
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub Item -->
+            <div class="contact-card glass-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <h4 class="contact-method-title">GitHub Profile</h4>
+                <!-- EDITABLE PLACEHOLDER: GitHub URL -->
+                <p class="contact-method-value">github.com/taranpreet-singh-placeholder</p>
+                <a href="https://github.com/taranpreet-singh-placeholder" target="_blank" rel="noopener noreferrer" class="btn-text-link">
+                  Explore GitHub &rarr;
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Working Contact Form -->
+          <div class="contact-form-column glass-card">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-subtitle">Fill in the form below to initiate an email directly to me.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name *</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Rahul Sharma / Recruiter Name" required>
+                <span class="field-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email Address *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. rahul@company.com" required>
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject *</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. IT Internship Opportunity / Query" required>
+                <span class="field-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Hello Taranpreet, we reviewed your portfolio and would like to discuss..." required></textarea>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitFormBtn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Send Message
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-badge">&lt;TS /&gt;</span>
+          <span class="brand-name">Taranpreet Singh</span>
+          <p class="footer-tagline">2nd-Year BCA Student &bull; Aspiring IT Professional</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear">2026</span> Taranpreet Singh. Designed &amp; built for recruiter review.
+        </p>
+        <p class="footer-note">
+          Clean HTML5, CSS3 &amp; Vanilla JavaScript &bull; Hosted with Pride
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast Notification element for copy email & form feedback -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    <span class="toast-icon" id="toastIcon">&#10003;</span>
+    <span class="toast-message" id="toastMessage">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
